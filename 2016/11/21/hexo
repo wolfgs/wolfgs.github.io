@@ -3,17 +3,18 @@
 <head>
   <meta charset="utf-8">
   
-  <title>wolfgs Blog</title>
+  <title>hexo常用命令笔记 | wolfgs Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="wolfgs Blog a simle Blog">
-<meta property="og:type" content="website">
-<meta property="og:title" content="wolfgs Blog">
-<meta property="og:url" content="http://yoursite.com/index.html">
+  <meta name="description" content="hexonpm install hexo -g #安装npm update hexo -g #升级hexo init #初始化">
+<meta property="og:type" content="article">
+<meta property="og:title" content="hexo常用命令笔记">
+<meta property="og:url" content="http://yoursite.com/2016/11/21/hexo">
 <meta property="og:site_name" content="wolfgs Blog">
-<meta property="og:description" content="wolfgs Blog a simle Blog">
+<meta property="og:description" content="hexonpm install hexo -g #安装npm update hexo -g #升级hexo init #初始化">
+<meta property="og:updated_time" content="2016-11-21T06:58:41.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="wolfgs Blog">
-<meta name="twitter:description" content="wolfgs Blog a simle Blog">
+<meta name="twitter:title" content="hexo常用命令笔记">
+<meta name="twitter:description" content="hexonpm install hexo -g #安装npm update hexo -g #升级hexo init #初始化">
   
     <link rel="alternative" href="/atom.xml" title="wolfgs Blog" type="application/atom+xml">
   
@@ -27,9 +28,6 @@
   <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
   
-    
-    
-  
   
       <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
   
@@ -41,8 +39,8 @@
           rootUrl: '/',
           fancybox: true,
           animate: true,
-          isHome: true,
-          isPost: false,
+          isHome: false,
+          isPost: true,
           isArchive: false,
           isTag: false,
           isCategory: false,
@@ -202,62 +200,7 @@
         </header>                
     </div>
 </nav>
-      <div class="body-wrap">
-  
-    <article id="post-html" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2016/11/21/html/" class="article-date">
-      <time datetime="2016-11-21T20:47:23.000Z" itemprop="datePublished">2016-11-21</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/11/21/html/">html</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-          
-        
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-
-      
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-
-
-  
-    <article id="post-hexo??????" class="article article-type-post" itemscope itemprop="blogPost">
+      <div class="body-wrap"><article id="post-hexo??????" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
       <a href="/2016/11/21/hexo??????/" class="article-date">
@@ -273,117 +216,195 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/11/21/hexo??????/">hexo常用命令笔记</a>
+    <h1 class="article-title" itemprop="name">
+      hexo常用命令笔记
     </h1>
   
 
       </header>
       
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-          
-              <p>hexo<br>npm install hexo -g #安装<br>npm update hexo -g #升级<br>hexo init #初始化<br>
-          
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
+      <div class="article-info article-info-post">
+        
 
-      
+        
     <div class="article-tag tagcloud">
         <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo/">hexo</a></li></ul>
     </div>
 
-      
-        <p class="article-more-link">
-          <a  href="/2016/11/21/hexo??????/#more">阅读详情。。 >></a>
-        </p>
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-
-
-  
-    <article id="post-demo" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2015/10/21/demo/" class="article-date">
-      <time datetime="2015-10-21T14:34:12.000Z" itemprop="datePublished">2015-10-21</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2015/10/21/demo/">辨析 Sass 中的 Map 和 List</a>
-    </h1>
-  
-
-      </header>
+        <div class="clearfix"></div>
+      </div>
       
     
     <div class="article-entry" itemprop="articleBody">
       
           
-              <p>如果你使用过 Sass 3.3 之前的版本，那么你一定对那段时光颇有感触，那时候没有现如今这么好的条件，那时候的 Map 还只能用多重列表（lists of list）来模拟。多重列表可以实现复杂数据的嵌套定义，但却不是以键值对的形式实现的，所有当我们需要获取其中特定的某一项时就会比较麻烦。Map 这种数据类型天生就是基于键值对的形式，非常便于组织数据。</p>
-<p>自从可以使用 Map 之后，开发者们开始毫无顾忌地定义 Map 存储数据，比如断点宽度、颜色值、栅格布局等等响应式排版的细节，都被一股脑的塞进了 Map 中。</p>
-<p>那么，有了 Map 之后，我们还有必要使用 List 吗？可能某些人会觉得为了保持向后兼容应该继续使用多重列表模拟 Map，因为可能有些开发者仍然在使用老版本的 Sass 编译器，但实际上，这是多此一举了，Sass 的版本通常由 <code>package.json</code> 或者其他同类型的项目配置文件所控制，往往只需一条命令（<code>gem update sass</code>）即可更新 Sass 的版本，因此基本上无需考虑对老版本的兼容问题。</p>
-          
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
+        <p>hexo<br>npm install hexo -g #安装<br>npm update hexo -g #升级<br>hexo init #初始化<br><a id="more"></a><br>简写<br>hexo n “我的博客” == hexo new “我的博客” #新建文章<br>hexo p == hexo publish<br>hexo g == hexo generate#生成<br>hexo s == hexo server #启动服务预览<br>hexo d == hexo deploy#部署</p>
+<p>服务器<br>hexo server #Hexo 会监视文件变动并自动更新，您无须重启服务器。<br>hexo server -s #静态模式<br>hexo server -p 5000 #更改端口<br>hexo server -i 192.168.1.1 #自定义 IP</p>
+<p>hexo clean #清除缓存 网页正常情况下可以忽略此条命令<br>hexo g #生成静态网页<br>hexo d #开始部署</p>
+<p>监视文件变动<br>hexo generate #使用 Hexo 生成静态文件快速而且简单<br>hexo generate –watch #监视文件变动</p>
+<p>完成后部署<br>两个命令的作用是相同的<br>hexo generate –deploy<br>hexo deploy –generate<br>hexo deploy -g<br>hexo server -g</p>
+<p>草稿<br>hexo publish [layout] &lt; title &gt;</p>
+<p>模版<br>hexo new “postName” #新建文章<br>hexo new page “pageName” #新建页面<br>hexo generate #生成静态页面至public目录<br>hexo server #开启预览访问端口（默认端口4000，’ctrl + c’关闭server）<br>hexo deploy #将.deploy目录部署到GitHub</p>
+<p>hexo new [layout] &lt; title &gt;<br>hexo new photo “My Gallery”<br>hexo new “Hello World” –lang tw</p>
+<p>变量  描述<br>layout  布局<br>title   标题<br>date    文件建立日期<br>title: 使用Hexo搭建个人博客<br>layout: post<br>date: 2014-03-03 19:07:43<br>comments: true<br>categories: Blog<br>tags: [Hexo]<br>keywords: Hexo, Blog<br>description: 生命在于折腾，又把博客折腾到Hexo了。给Hexo点赞。<br>模版（Scaffold）<br>hexo new photo “My Gallery”</p>
+<p>变量  描述<br>layout  布局<br>title   标题<br>date    文件建立日期<br>设置文章摘要<br>以上是文章摘要 &lt;! – more – &gt; 以下是余下全文<br>写作<br>hexo new page &lt; title&gt;<br>hexo new post &lt; title&gt;</p>
+<p>变量  描述<br>:title  标题<br>:year   建立的年份（4 位数）<br>:month  建立的月份（2 位数）<br>:i_month    建立的月份（去掉开头的零）<br>:day    建立的日期（2 位数）<br>:i_day  建立的日期（去掉开头的零）<br>推送到服务器上<br>hexo n #写文章<br>hexo g #生成<br>hexo d #部署 #可与hexo g合并为 hexo d -g</p>
 
       
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/css/">css</a></li></ul>
-    </div>
-
-      
-        <p class="article-more-link">
-          <a  href="/2015/10/21/demo/#more">阅读详情。。 >></a>
-        </p>
-      
-      <div class="clearfix"></div>
     </div>
     
   </div>
   
+    
+    <div class="copyright">
+        <p><span>本文标题:</span><a href="/2016/11/21/hexo??????/">hexo常用命令笔记</a></p>
+        <p><span>文章作者:</span><a href="/" title="访问 lgs 的个人博客">lgs</a></p>
+        <p><span>发布时间:</span>2016年11月21日 - 14时24分</p>
+        <p><span>最后更新:</span>2016年11月21日 - 01时58分</p>
+        <p>
+            <span>原始链接:</span><a class="post-url" href="/2016/11/21/hexo??????/" title="hexo常用命令笔记">http://yoursite.com/2016/11/21/hexo??????/</a>
+            <span class="copy-path" data-clipboard-text="原文: http://yoursite.com/2016/11/21/hexo??????/　　作者: lgs" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
+            <script src="/js/clipboard.min.js"></script>
+            <script> var clipboard = new Clipboard('.copy-path'); </script>
+        </p>
+        <p>
+            <span>许可协议:</span><i class="fa fa-creative-commons"></i> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/cn/" title="中国大陆 (CC BY-NC-SA 3.0 CN)" target = "_blank">"署名-非商用-相同方式共享 3.0"</a> 转载请保留原文链接及作者。
+        </p>
+    </div>
+
+
+
+<nav id="article-nav">
+  
+    <a href="/2016/11/21/html/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption"><</strong>
+      <div class="article-nav-title">
+        
+          html
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2015/10/21/demo/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">辨析 Sass 中的 Map 和 List</div>
+      <strong class="article-nav-caption">></strong>
+    </a>
+  
+</nav>
+
+  
 </article>
 
+    <div id="toc" class="toc-article">
+    <strong class="toc-title">文章目录</strong>
+    
+</div>
+<input type="button" id="tocButton" value="隐藏目录"  title="点击按钮隐藏或者显示文章目录">
+
+<script src="https://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js"></script>
+<script>
+    var valueHide = "隐藏目录";
+    var valueShow = "显示目录";
+
+    if ($(".left-col").is(":hidden")) {
+        $("#tocButton").attr("value", valueShow);
+    }
+    $("#tocButton").click(function() {
+        if ($("#toc").is(":hidden")) {
+            $("#tocButton").attr("value", valueHide);
+            $("#toc").slideDown(320);
+        }
+        else {
+            $("#tocButton").attr("value", valueShow);
+            $("#toc").slideUp(350);
+        }
+    })
+    if ($(".toc").length < 1) {
+        $("#toc, #tocButton").hide();
+    }
+</script>
 
 
 
 
 
+<div class="bdsharebuttonbox">
+	<a href="#" class="fx fa-weibo bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+	<a href="#" class="fx fa-weixin bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+	<a href="#" class="fx fa-qq bds_sqq" data-cmd="sqq" title="分享到QQ好友"></a>
+	<a href="#" class="fx fa-facebook-official bds_fbook" data-cmd="fbook" title="分享到Facebook"></a>
+	<a href="#" class="fx fa-twitter bds_twi" data-cmd="twi" title="分享到Twitter"></a>
+	<a href="#" class="fx fa-linkedin bds_linkedin" data-cmd="linkedin" title="分享到linkedin"></a>
+	<a href="#" class="fx fa-files-o bds_copy" data-cmd="copy" title="分享到复制网址"></a>
+</div>
+<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"2","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
 
 
 
-  
-  
+
+    
+      <div class="duoshuo" id="comments">
+    <!-- 多说评论框 start -->
+    <div class="ds-thread" data-thread-key="2016/11/21/hexo??????/" data-title="hexo常用命令笔记" data-url="http://yoursite.com/2016/11/21/hexo??????/"></div>
+    <!-- 多说评论框 end -->
+    <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+    <script type="text/javascript">
+    var duoshuoQuery = {short_name:"null"};
+    (function() {
+        var ds = document.createElement('script');
+        ds.type = 'text/javascript';ds.async = true;
+        ds.src = '/js/embed.js';
+        ds.charset = 'UTF-8';
+        (document.getElementsByTagName('head')[0] 
+         || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+    </script>
+    <!-- 多说公共JS代码 end -->
+</div>
+
+    
+
+
+
+    <div class="scroll" id="post-nav-button">
+        
+            <a href="/2016/11/21/html/" title="上一篇: html">
+                <i class="fa fa-angle-left"></i>
+            </a>
+        
+        <a title="文章列表"><i class="fa fa-bars"></i><i class="fa fa-times"></i></a>
+        
+            <a href="/2015/10/21/demo/" title="下一篇: 辨析 Sass 中的 Map 和 List">
+                <i class="fa fa-angle-right"></i>
+            </a>
+        
+    </div>
+    <ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2016/11/21/html/">html</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/11/21/hexo??????/">hexo常用命令笔记</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/10/21/demo/">辨析 Sass 中的 Map 和 List</a></li></ul>
+    <script src="https://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js"></script>
+    <script>
+        $(".post-list").addClass("toc-article");
+        $(".post-list-item a").attr("target","_blank");
+        $("#post-nav-button > a:nth-child(2)").click(function() {
+            $(".fa-bars, .fa-times").toggle();
+            $(".post-list").toggle(300);
+            if ($(".toc").length > 0) {
+                $("#toc, #tocButton").toggle(200, function() {
+                    if ($(".switch-area").is(":visible")) {
+                        $("#tocButton").attr("value", valueHide);
+                        }
+                    })
+            }
+            else {
+            }
+        })
+    </script>
+
+
+
+    <script>
+        
+    </script>
 </div>
       <footer id="footer">
     <div class="outer">
