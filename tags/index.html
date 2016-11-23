@@ -15,16 +15,16 @@
 
 
 
-<meta name="description" content="hexonpm install hexo -g #安装npm update hexo -g #升级hexo init #初始化">
-<meta property="og:type" content="article">
-<meta property="og:title" content="hexo常用命令笔记">
-<meta property="og:url" content="http://yoursite.com/2016/11/21/hexo">
+<meta name="description" content="wolfgs Blog a simle Blog">
+<meta property="og:type" content="website">
+<meta property="og:title" content="tags">
+<meta property="og:url" content="http://yoursite.com/tags/index.html">
 <meta property="og:site_name" content="wolfgs Blog">
-<meta property="og:description" content="hexonpm install hexo -g #安装npm update hexo -g #升级hexo init #初始化">
-<meta property="og:updated_time" content="2016-11-21T06:58:41.000Z">
+<meta property="og:description" content="wolfgs Blog a simle Blog">
+<meta property="og:updated_time" content="2016-11-23T04:07:53.231Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="hexo常用命令笔记">
-<meta name="twitter:description" content="hexonpm install hexo -g #安装npm update hexo -g #升级hexo init #初始化">
+<meta name="twitter:title" content="tags">
+<meta name="twitter:description" content="wolfgs Blog a simle Blog">
 
 <link rel="apple-touch-icon" href= "/apple-touch-icon.png">
 
@@ -56,7 +56,7 @@
 <link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
 
 
-<title>hexo常用命令笔记 | wolfgs Blog</title>
+<title>tags | wolfgs Blog</title>
 
 <script src="//cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
 <script src="//cdn.bootcss.com/clipboard.js/1.5.10/clipboard.min.js"></script>
@@ -66,7 +66,7 @@
         fancybox: true,
         animate: true,
         isHome: false,
-        isPost: true,
+        isPost: false,
         isArchive: false,
         isTag: false,
         isCategory: false,
@@ -256,11 +256,11 @@
     </div>
     <link class="menu-list" tags="标签" friends="友情链接" about="关于我"/>
 </nav>
-      <div class="body-wrap"><article id="post-hexo??????" class="article article-type-post" itemscope itemprop="blogPost">
+      <div class="body-wrap"><article id="page-undefined" class="article article-type-page" itemscope itemprop="blogPost">
   
     <div class="article-meta">
-      <a href="/2016/11/21/hexo??????/" class="article-date">
-      <time datetime="2016-11-21T19:24:29.000Z" itemprop="datePublished">2016-11-21</time>
+      <a href="/tags/index.html" class="article-date">
+      <time datetime="2016-11-23T04:07:53.000Z" itemprop="datePublished">2016-11-22</time>
 </a>
 
 
@@ -275,7 +275,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      hexo常用命令笔记
+      tags
     </h1>
   
 
@@ -285,10 +285,6 @@
         
 
         
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo/">hexo</a></li></ul>
-    </div>
-
         <div class="clearfix"></div>
       </div>
       
@@ -296,83 +292,96 @@
     <div class="article-entry" itemprop="articleBody">
       
           
-        <p>hexo<br>npm install hexo -g #安装<br>npm update hexo -g #升级<br>hexo init #初始化<br><a id="more"></a><br>简写<br>hexo n “我的博客” == hexo new “我的博客” #新建文章<br>hexo p == hexo publish<br>hexo g == hexo generate#生成<br>hexo s == hexo server #启动服务预览<br>hexo d == hexo deploy#部署</p>
-<p>服务器<br>hexo server #Hexo 会监视文件变动并自动更新，您无须重启服务器。<br>hexo server -s #静态模式<br>hexo server -p 5000 #更改端口<br>hexo server -i 192.168.1.1 #自定义 IP</p>
-<p>hexo clean #清除缓存 网页正常情况下可以忽略此条命令<br>hexo g #生成静态网页<br>hexo d #开始部署</p>
-<p>监视文件变动<br>hexo generate #使用 Hexo 生成静态文件快速而且简单<br>hexo generate –watch #监视文件变动</p>
-<p>完成后部署<br>两个命令的作用是相同的<br>hexo generate –deploy<br>hexo deploy –generate<br>hexo deploy -g<br>hexo server -g</p>
-<p>草稿<br>hexo publish [layout] &lt; title &gt;</p>
-<p>模版<br>hexo new “postName” #新建文章<br>hexo new page “pageName” #新建页面<br>hexo generate #生成静态页面至public目录<br>hexo server #开启预览访问端口（默认端口4000，’ctrl + c’关闭server）<br>hexo deploy #将.deploy目录部署到GitHub</p>
-<p>hexo new [layout] &lt; title &gt;<br>hexo new photo “My Gallery”<br>hexo new “Hello World” –lang tw</p>
-<p>变量  描述<br>layout  布局<br>title   标题<br>date    文件建立日期<br>title: 使用Hexo搭建个人博客<br>layout: post<br>date: 2014-03-03 19:07:43<br>comments: true<br>categories: Blog<br>tags: [Hexo]<br>keywords: Hexo, Blog<br>description: 生命在于折腾，又把博客折腾到Hexo了。给Hexo点赞。<br>模版（Scaffold）<br>hexo new photo “My Gallery”</p>
-<p>变量  描述<br>layout  布局<br>title   标题<br>date    文件建立日期<br>设置文章摘要<br>以上是文章摘要 &lt;! – more – &gt; 以下是余下全文<br>写作<br>hexo new page &lt; title&gt;<br>hexo new post &lt; title&gt;</p>
-<p>变量  描述<br>:title  标题<br>:year   建立的年份（4 位数）<br>:month  建立的月份（2 位数）<br>:i_month    建立的月份（去掉开头的零）<br>:day    建立的日期（2 位数）<br>:i_day  建立的日期（去掉开头的零）<br>推送到服务器上<br>hexo n #写文章<br>hexo g #生成<br>hexo d #部署 #可与hexo g合并为 hexo d -g</p>
+              <style>
+    .article-meta { display: none; }
+    #container .article .article-title { padding-right: 0; }
+    .article-header {
+        padding: 0;
+        padding-top: 26px;
+        border-left: none;
+        text-align: center;
+    }
+    .article-header:hover { border-left: none; }
+    .article-title { font-size: 1.6em }
+    .article-entry hr { margin: 0;}
+    .article-meta,
+    #container .article-info-post.article-info { display: none;}
+    #container .article .article-title { padding: 0; }
+</style>
 
+
+    <!-- Tag Cloud Page -->
+    <hr>
+<br>
+
+
+<p class="count"></p>
+
+<div class="tags">
+    <a href="/tags/Another-Tag/" style="font-size: 16px; color: #808080">Another Tag</a> <a href="/tags/css/" style="font-size: 16px; color: #808080">css</a> <a href="/tags/hexo/" style="font-size: 35px; color: #000">hexo</a> <a href="/tags/node/" style="font-size: 16px; color: #808080">node</a> <a href="/tags/nodejs/" style="font-size: 25.5px; color: #404040">nodejs</a> <a href="/tags/散文/" style="font-size: 16px; color: #808080">散文</a>
+</div>
+<style>
+    .category-list li{
+        display: inline-block;
+        margin: 0 1em .5em 0;
+        padding: 4px;
+        border: 1px solid lightgray;
+        font-size: 1.2rem;
+    }
+    .category-list a { color: gray; }
+    .category-list-item:hover a {
+        color: gray;
+        text-decoration: none;
+    }
+    .category-list-count {
+        margin-left: 2px;
+        font-size: .9rem;
+    }
+    .article-entry ul li:before{ display: none; }
+    .article-inner { text-align: center; }
+    .tags {
+        max-width: 42em;
+        margin: 2em auto;
+        margin-top: 0em;
+    }
+    .tags a {
+        margin-right: 1em;
+        line-height: 65px;
+        border-bottom: 1px solid gray;
+        white-space: nowrap;
+        transition: border-bottom .5s;
+    }
+    .tags a:hover {
+        border-bottom: 3px dotted gray;
+        text-decoration: none;
+    }
+    #count > span {
+        margin: auto .2em;
+        font-weight: bold;
+    }
+</style>
+
+<!-- Count tags and categories -->
+<p id="count">
+        已有<span><script>document.write($(".category-list-item").length)</script></span>个分类，
+        共计<span><script>document.write($(".tags > a").length)</script></span>个标签
+</p>
+<script>
+    $('#count').appendTo('.count');
+</script>
+
+          
+        
       
     </div>
     
   </div>
   
     
-    <div class="copyright">
-        <p><span>本文标题:</span><a href="/2016/11/21/hexo??????/">hexo常用命令笔记</a></p>
-        <p><span>文章作者:</span><a href="/" title="回到主页">lgs</a></p>
-        <p><span>发布时间:</span>2016-11-21, 14:24:29</p>
-        <p><span>最后更新:</span>2016-11-21, 01:58:41</p>
-        <p>
-            <span>原始链接:</span><a class="post-url" href="/2016/11/21/hexo??????/" title="hexo常用命令笔记">http://yoursite.com/2016/11/21/hexo??????/</a>
-            <span class="copy-path" data-clipboard-text="原文: http://yoursite.com/2016/11/21/hexo??????/　　作者: lgs" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
-            <script> var clipboard = new Clipboard('.copy-path'); </script>
-        </p>
-        <p>
-            <span>许可协议:</span><i class="fa fa-creative-commons"></i> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" title="CC BY-NC-SA 4.0 International" target = "_blank">"署名-非商用-相同方式共享 4.0"</a> 转载请保留原文链接及作者。
-        </p>
-    </div>
 
-
-
-    <nav id="article-nav">
-        
-            <div id="article-nav-newer" class="article-nav-title">
-                <a href="/2016/11/21/hexo node/">
-                    hexo常用命令笔记
-                </a>
-            </div>
-        
-        
-            <div id="article-nav-older" class="article-nav-title">
-                <a href="/2016/11/21/hello-world/">
-                    Hello World
-                </a>
-            </div>
-        
-    </nav>
 
   
 </article>
-
-    <div id="toc" class="toc-article">
-        <strong class="toc-title">文章目录</strong>
-        
-            
-        
-    </div>
-    <style>
-        .left-col .switch-btn,
-        .left-col .switch-area {
-            display: none;
-        }
-        .toc-level-3 i,
-        .toc-level-3 ol {
-            display: none !important;
-        }
-    </style>
-
-    <input type="button" id="tocButton" value="隐藏目录"  title="点击按钮隐藏或者显示文章目录">
-
-    <script>
-        yiliaConfig.toc = ["隐藏目录", "显示目录", !!"false"];
-    </script>
 
 
 
@@ -390,7 +399,7 @@
         </div>
         <script>
             window._bd_share_config={
-                "common":{"bdSnsKey":{},"bdText":"hexo常用命令笔记　| wolfgs Blog　","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+                "common":{"bdSnsKey":{},"bdText":"tags　| wolfgs Blog　","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
         </script>
     
 
@@ -405,26 +414,6 @@
 
     
 
-
-
-
-    <div class="scroll" id="post-nav-button">
-        
-            <a href="/2016/11/21/hexo node/" title="上一篇: hexo常用命令笔记">
-                <i class="fa fa-angle-left"></i>
-            </a>
-        
-
-        <a title="文章列表"><i class="fa fa-bars"></i><i class="fa fa-times"></i></a>
-
-        
-            <a href="/2016/11/21/hello-world/" title="下一篇: Hello World">
-                <i class="fa fa-angle-right"></i>
-            </a>
-        
-    </div>
-
-    <ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2016/11/21/node-1-day/">Node服务器端开发第一天</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/11/21/shang/">我出上联，你答下联</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/11/21/html/">html</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/11/21/hexo changyong/">hexo常用命令笔记</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/11/21/hexo node/">hexo常用命令笔记</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/11/21/hexo??????/">hexo常用命令笔记</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/11/21/hello-world/">Hello World</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/11/16/nodejs-into/">nodejs 进阶</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/10/21/demo/">辨析 Sass 中的 Map 和 List</a></li></ul>
 
 
 
