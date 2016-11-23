@@ -4,9 +4,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
-  <updated>2016-11-23T02:35:32.000Z</updated>
-  <id>http://yoursite.com/</id>
+  <link href="http://wolfgs.com/"/>
+  <updated>2016-11-23T05:01:31.000Z</updated>
+  <id>http://wolfgs.com/</id>
   
   <author>
     <name>lgs</name>
@@ -17,19 +17,20 @@
   
   <entry>
     <title>Node服务器端开发第一天</title>
-    <link href="http://yoursite.com/2016/11/21/node-1-day/"/>
-    <id>http://yoursite.com/2016/11/21/node-1-day/</id>
+    <link href="http://wolfgs.com/2016/11/21/node-1-day/"/>
+    <id>http://wolfgs.com/2016/11/21/node-1-day/</id>
     <published>2016-11-22T02:39:52.000Z</published>
-    <updated>2016-11-23T02:35:32.000Z</updated>
+    <updated>2016-11-23T05:01:31.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="Node服务器端开发第一天"><a href="#Node服务器端开发第一天" class="headerlink" title="Node服务器端开发第一天"></a>Node服务器端开发第一天</h1><blockquote>
-<p>Node简介及配置、快速上手、核心特点、模块化<br><img src="http://upload-images.jianshu.io/upload_images/2353966-cb17eb530c7999fc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="1212.png"></p>
+<p>Node简介及配置、快速上手、核心特点、模块化<br><img src="http://upload-images.jianshu.io/upload_images/2353966-cb17eb530c7999fc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="1212.png"><br><a id="more"></a></p>
 <h2 id="Node简介"><a href="#Node简介" class="headerlink" title="Node简介"></a>Node简介</h2></blockquote>
 <h3 id="客户端的JavaScript是怎样的"><a href="#客户端的JavaScript是怎样的" class="headerlink" title="客户端的JavaScript是怎样的"></a>客户端的JavaScript是怎样的</h3><ul>
-<li>什么是 JavaScript？<ul>
+<li><p>什么是 JavaScript？</p>
+<ul>
 <li>脚本语言</li>
 <li>运行在浏览器中</li>
-<li>一般用来做客户端页面的交互（Interactive）<a id="more"></a></li>
+<li>一般用来做客户端页面的交互（Interactive）</li>
 </ul>
 </li>
 <li><p>JavaScript 的运行环境？</p>
@@ -198,27 +199,21 @@
     <summary type="html">
     
       &lt;h1 id=&quot;Node服务器端开发第一天&quot;&gt;&lt;a href=&quot;#Node服务器端开发第一天&quot; class=&quot;headerlink&quot; title=&quot;Node服务器端开发第一天&quot;&gt;&lt;/a&gt;Node服务器端开发第一天&lt;/h1&gt;&lt;blockquote&gt;
-&lt;p&gt;Node简介及配置、快速上手、核心特点、模块化&lt;br&gt;&lt;img src=&quot;http://upload-images.jianshu.io/upload_images/2353966-cb17eb530c7999fc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;1212.png&quot;&gt;&lt;/p&gt;
-&lt;h2 id=&quot;Node简介&quot;&gt;&lt;a href=&quot;#Node简介&quot; class=&quot;headerlink&quot; title=&quot;Node简介&quot;&gt;&lt;/a&gt;Node简介&lt;/h2&gt;&lt;/blockquote&gt;
-&lt;h3 id=&quot;客户端的JavaScript是怎样的&quot;&gt;&lt;a href=&quot;#客户端的JavaScript是怎样的&quot; class=&quot;headerlink&quot; title=&quot;客户端的JavaScript是怎样的&quot;&gt;&lt;/a&gt;客户端的JavaScript是怎样的&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;什么是 JavaScript？&lt;ul&gt;
-&lt;li&gt;脚本语言&lt;/li&gt;
-&lt;li&gt;运行在浏览器中&lt;/li&gt;
-&lt;li&gt;一般用来做客户端页面的交互（Interactive）
+&lt;p&gt;Node简介及配置、快速上手、核心特点、模块化&lt;br&gt;&lt;img src=&quot;http://upload-images.jianshu.io/upload_images/2353966-cb17eb530c7999fc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;1212.png&quot;&gt;&lt;br&gt;
     
     </summary>
     
     
-      <category term="node" scheme="http://yoursite.com/tags/node/"/>
+      <category term="node" scheme="http://wolfgs.com/tags/node/"/>
     
-      <category term="Another Tag" scheme="http://yoursite.com/tags/Another-Tag/"/>
+      <category term="Another Tag" scheme="http://wolfgs.com/tags/Another-Tag/"/>
     
   </entry>
   
   <entry>
     <title>我出上联，你答下联</title>
-    <link href="http://yoursite.com/2016/11/21/shang/"/>
-    <id>http://yoursite.com/2016/11/21/shang/</id>
+    <link href="http://wolfgs.com/2016/11/21/shang/"/>
+    <id>http://wolfgs.com/2016/11/21/shang/</id>
     <published>2016-11-22T02:24:40.000Z</published>
     <updated>2016-11-23T02:35:32.000Z</updated>
     
@@ -239,14 +234,14 @@
     </summary>
     
     
-      <category term="散文" scheme="http://yoursite.com/tags/%E6%95%A3%E6%96%87/"/>
+      <category term="散文" scheme="http://wolfgs.com/tags/%E6%95%A3%E6%96%87/"/>
     
   </entry>
   
   <entry>
     <title>html</title>
-    <link href="http://yoursite.com/2016/11/21/html/"/>
-    <id>http://yoursite.com/2016/11/21/html/</id>
+    <link href="http://wolfgs.com/2016/11/21/html/"/>
+    <id>http://wolfgs.com/2016/11/21/html/</id>
     <published>2016-11-21T20:47:23.000Z</published>
     <updated>2016-11-21T07:47:23.000Z</updated>
     
@@ -259,8 +254,8 @@
   
   <entry>
     <title>hexo常用命令笔记</title>
-    <link href="http://yoursite.com/2016/11/21/hexo%20changyong/"/>
-    <id>http://yoursite.com/2016/11/21/hexo changyong/</id>
+    <link href="http://wolfgs.com/2016/11/21/hexo%20changyong/"/>
+    <id>http://wolfgs.com/2016/11/21/hexo changyong/</id>
     <published>2016-11-21T19:24:29.000Z</published>
     <updated>2016-11-21T10:03:46.000Z</updated>
     
@@ -284,14 +279,14 @@
     </summary>
     
     
-      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
+      <category term="hexo" scheme="http://wolfgs.com/tags/hexo/"/>
     
   </entry>
   
   <entry>
     <title>hexo常用命令笔记</title>
-    <link href="http://yoursite.com/2016/11/21/hexo%20node/"/>
-    <id>http://yoursite.com/2016/11/21/hexo node/</id>
+    <link href="http://wolfgs.com/2016/11/21/hexo%20node/"/>
+    <id>http://wolfgs.com/2016/11/21/hexo node/</id>
     <published>2016-11-21T19:24:29.000Z</published>
     <updated>2016-11-21T06:58:41.000Z</updated>
     
@@ -315,14 +310,14 @@
     </summary>
     
     
-      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
+      <category term="hexo" scheme="http://wolfgs.com/tags/hexo/"/>
     
   </entry>
   
   <entry>
     <title>hexo常用命令笔记</title>
-    <link href="http://yoursite.com/2016/11/21/hexo??????/"/>
-    <id>http://yoursite.com/2016/11/21/hexo??????/</id>
+    <link href="http://wolfgs.com/2016/11/21/hexo??????/"/>
+    <id>http://wolfgs.com/2016/11/21/hexo??????/</id>
     <published>2016-11-21T19:24:29.000Z</published>
     <updated>2016-11-21T06:58:41.000Z</updated>
     
@@ -346,14 +341,14 @@
     </summary>
     
     
-      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
+      <category term="hexo" scheme="http://wolfgs.com/tags/hexo/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2016/11/21/hello-world/"/>
-    <id>http://yoursite.com/2016/11/21/hello-world/</id>
+    <link href="http://wolfgs.com/2016/11/21/hello-world/"/>
+    <id>http://wolfgs.com/2016/11/21/hello-world/</id>
     <published>2016-11-21T17:42:18.000Z</published>
     <updated>2016-11-21T06:47:46.000Z</updated>
     
@@ -375,21 +370,20 @@
     </summary>
     
     
-      <category term="nodejs" scheme="http://yoursite.com/tags/nodejs/"/>
+      <category term="nodejs" scheme="http://wolfgs.com/tags/nodejs/"/>
     
   </entry>
   
   <entry>
     <title>nodejs 进阶</title>
-    <link href="http://yoursite.com/2016/11/16/nodejs-into/"/>
-    <id>http://yoursite.com/2016/11/16/nodejs-into/</id>
+    <link href="http://wolfgs.com/2016/11/16/nodejs-into/"/>
+    <id>http://wolfgs.com/2016/11/16/nodejs-into/</id>
     <published>2016-11-17T03:42:18.000Z</published>
-    <updated>2016-11-21T04:58:49.000Z</updated>
+    <updated>2016-11-23T05:01:36.000Z</updated>
     
     <content type="html"><![CDATA[<p>hexo–搭建</p>
 <p>前言<br>Hexo是一个很好的博客，个人觉得他的界面干净利落，阅读体验也是很好。初次接触Hexo是在朋友的介绍下才知道的，hexo是需要手动搭建（觉得B格很高），在朋友的帮助下也终于是完成了。</p>
-<p>开篇记录一下搭建的过程希望能帮助到浏览到这里的朋友</p>
-<p>我的系统为OS X，windows也可以参考。</p>
+<p>开篇记录一下搭建的过程希望能帮助到浏览到这里的朋友<br><a id="more"></a><br>我的系统为OS X，windows也可以参考。</p>
 <p>简介</p>
 <p>Hexo是一个开源的静态博客生成器，用node.js开发，作者是台湾大学生tommy351。</p>
 <p>思路总结</p>
@@ -483,19 +477,19 @@
     
       &lt;p&gt;hexo–搭建&lt;/p&gt;
 &lt;p&gt;前言&lt;br&gt;Hexo是一个很好的博客，个人觉得他的界面干净利落，阅读体验也是很好。初次接触Hexo是在朋友的介绍下才知道的，hexo是需要手动搭建（觉得B格很高），在朋友的帮助下也终于是完成了。&lt;/p&gt;
-&lt;p&gt;开篇记录一下搭建的过程希望能帮助到
+&lt;p&gt;开篇记录一下搭建的过程希望能帮助到浏览到这里的朋友&lt;br&gt;
     
     </summary>
     
     
-      <category term="nodejs" scheme="http://yoursite.com/tags/nodejs/"/>
+      <category term="nodejs" scheme="http://wolfgs.com/tags/nodejs/"/>
     
   </entry>
   
   <entry>
     <title>辨析 Sass 中的 Map 和 List</title>
-    <link href="http://yoursite.com/2015/10/21/demo/"/>
-    <id>http://yoursite.com/2015/10/21/demo/</id>
+    <link href="http://wolfgs.com/2015/10/21/demo/"/>
+    <id>http://wolfgs.com/2015/10/21/demo/</id>
     <published>2015-10-21T14:34:12.000Z</published>
     <updated>2016-11-21T07:55:59.939Z</updated>
     
@@ -589,7 +583,7 @@
     </summary>
     
     
-      <category term="css" scheme="http://yoursite.com/tags/css/"/>
+      <category term="css" scheme="http://wolfgs.com/tags/css/"/>
     
   </entry>
   

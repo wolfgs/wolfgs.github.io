@@ -21,7 +21,7 @@
 <meta name="description" content="wolfgs Blog a simle Blog">
 <meta property="og:type" content="website">
 <meta property="og:title" content="wolfgs Blog">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta property="og:url" content="http://wolfgs.com/index.html">
 <meta property="og:site_name" content="wolfgs Blog">
 <meta property="og:description" content="wolfgs Blog a simle Blog">
 <meta name="twitter:card" content="summary">
@@ -292,13 +292,7 @@
       
           
               <h1 id="Node服务器端开发第一天"><a href="#Node服务器端开发第一天" class="headerlink" title="Node服务器端开发第一天"></a>Node服务器端开发第一天</h1><blockquote>
-<p>Node简介及配置、快速上手、核心特点、模块化<br><img src="http://upload-images.jianshu.io/upload_images/2353966-cb17eb530c7999fc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="1212.png"></p>
-<h2 id="Node简介"><a href="#Node简介" class="headerlink" title="Node简介"></a>Node简介</h2></blockquote>
-<h3 id="客户端的JavaScript是怎样的"><a href="#客户端的JavaScript是怎样的" class="headerlink" title="客户端的JavaScript是怎样的"></a>客户端的JavaScript是怎样的</h3><ul>
-<li>什么是 JavaScript？<ul>
-<li>脚本语言</li>
-<li>运行在浏览器中</li>
-<li>一般用来做客户端页面的交互（Interactive）
+<p>Node简介及配置、快速上手、核心特点、模块化<br><img src="http://upload-images.jianshu.io/upload_images/2353966-cb17eb530c7999fc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="1212.png"><br>
           
       
     </div>
@@ -736,98 +730,10 @@
     <div class="article-entry" itemprop="articleBody">
       
           
-        <p>hexo–搭建</p>
+              <p>hexo–搭建</p>
 <p>前言<br>Hexo是一个很好的博客，个人觉得他的界面干净利落，阅读体验也是很好。初次接触Hexo是在朋友的介绍下才知道的，hexo是需要手动搭建（觉得B格很高），在朋友的帮助下也终于是完成了。</p>
-<p>开篇记录一下搭建的过程希望能帮助到浏览到这里的朋友</p>
-<p>我的系统为OS X，windows也可以参考。</p>
-<p>简介</p>
-<p>Hexo是一个开源的静态博客生成器，用node.js开发，作者是台湾大学生tommy351。</p>
-<p>思路总结</p>
-<p>安装过程中如果出现问题请到最后面查看问题总结，或许能帮助你解决问题。</p>
-<p>环境配置</p>
-<p>安装Git</p>
-<p>安装过Xcode可以直接跳过这步，因为Xcode自带Git</p>
-<p>Git有很多，Mac和Windows都可以直接到git-scm官网下载安装</p>
-<p>安装node.js</p>
-<p>奉上Macnode-v4.2.2.pkg安装包。</p>
-<p>这两个软件的安装步骤就不多做介绍，一直点下一步就好</p>
-<p>安装</p>
-<p>安装hexo</p>
-<p>sudo npminstall-ghexo</p>
-<p>初始化</p>
-<p>我们可以创建一个新文件夹作为hexo的安装目录，把所有的hexo文件都放里面，主要是为了方便管理。</p>
-<p>初始化有两种方式：</p>
-<p>直接指定目录</p>
-<p>hexo init folderfolder:是指定目录的文件路径。例：/Documents/hexo</p>
-<p>进入指定目录(cd /文件夹路径)</p>
-<p>hexoinit</p>
-<p>终端执行命令后显示的结果：</p>
-<p>[info] Copying data[info] You are almost done! Don’t forgettorun<code>npm install</code>beforestart bloggingwithHexo!</p>
-<p>安装依赖包</p>
-<p>sudo npminstall</p>
-<p>生成静态页面</p>
-<p>cd 到你的hexo安装目录（工作目录），执行如下命令</p>
-<p>hexogenerate简写 hexog</p>
-<p>必须到你新建的hexo安装目录下执行，否则不成功</p>
-<p>本地启动测试</p>
-<p>hexoserver简写 hexo s</p>
-<p>到此本地服务已经完成，可以再浏览器中输入<a href="http://localhost:4000进行查看。接下来需要把我们创建的静态页面托管到github上，别人才能访问到" target="_blank" rel="external">http://localhost:4000进行查看。接下来需要把我们创建的静态页面托管到github上，别人才能访问到</a></p>
-<p>部署到Github</p>
-<p>注册Github账号</p>
-<p>这里就不再赘述，已有Github账号可以跳过此步骤。</p>
-<p>新建repository(仓库)</p>
-<p>登陆Github账号后，点击右上角的“+”号按钮，选择“New repository”</p>
-<p>在Create a new repository界面填写格式如下图所示: 用户名.github.io</p>
-<p>填写完成点Create repository创建完成</p>
-<p>生成SSH Keys：</p>
-<p>我们如何让本地git项目与远程的github建立联系？这时候就要用到SSH Keys</p>
-<p>1、生成SSH Keys</p>
-<p>使用ssh-keygen命令生成密钥对</p>
-<p>ssh-keygen -t rsa -C”这里是你申请Github账号时的邮箱”</p>
-<p>然后系统会要你输入密码：（我们输入的密码会在你提交项目的时候使用）</p>
-<p>Enter passphrase (emptyforno passphrase):&lt;输入加密串&gt;Enter same passphrase again:&lt;再次输入加密串&gt;</p>
-<p>（终端提示生成的文件路径）找到你生成的密钥找到id_rsa.pub用终端进入编辑，复制密钥。</p>
-<p>2、添加你的SSH Key到ssh-agent</p>
-<p>添加你的SSH Key到ssh-agent</p>
-<p>//在后台打开 ssh-agenteval”$(ssh-agent -s)”添加你的SSH Key到ssh-agentssh-add ~/.ssh/id_rsa</p>
-<p>添加SSH Key到Github：</p>
-<p>1、添加SSH Key</p>
-<p>通过命令复制SSH Key内容到系统剪贴板</p>
-<p>pbcopy &lt; ~/.ssh/id_rsa.pub</p>
-<p>登陆Github,点击右侧用户按钮，选择Settings</p>
-<p>点击 Add SSH key 按钮，将复制的密钥粘贴到 Key 栏</p>
-<p>2、测试能不能链接成功</p>
-<p>测试</p>
-<p>ssh-T git@github.com</p>
-<p>执行结果</p>
-<p>Permanently addedtheRSA host keyforIP address ‘192.30.252.130’tothelistofknown hosts.Are you sure you wanttocontinueconnecting (yes/no)?&lt;输入yes&gt;Hi username! You’ve successfully authenticated,butGitHubdoesnot</p>
-<p>现在你已经可以通过SSH链接到Github了</p>
-<p>如果有问题，请再配置。参考网站</p>
-<p>生成SSH Keys</p>
-<p>Generating SSH Keys</p>
-<p>Error: Permission denied (publickey)错误</p>
-<p>Error: Permission denied (publickey)</p>
-<p>设置你的用户名和密码：</p>
-<p>Git会根据用户的名字和邮箱来记录提交，GitHub也是用这些信息来做权限的处理。</p>
-<p>git config –global user.name”这里是你申请Github账号时的name”git config –global user.email”这里是你申请Github账号时的邮箱”</p>
-<p>部署</p>
-<p>编辑 _config.yml(在你的工作目录下)，把下面的your_username换成你的github用户名</p>
-<p>deploy:type: gitrepo:<a href="https://github.com/your_username/your_username.github.io.gitbranch" target="_blank" rel="external">https://github.com/your_username/your_username.github.io.gitbranch</a>: master</p>
-<p>执行部署命令</p>
-<p>hexod-ghexogenerate和 hexo deploy 合写</p>
-<p>问题：</p>
-<p>1、 部署时出现：Error: EACCES, open ‘/Users/Desktop/hexo/public/js/script.js’</p>
-<p>原因：权限问题在部署命令前加sudo</p>
-<p>2、 deployer找不到git: ERROR Deployer not found: git</p>
-<p>解决方法:npm install hexo-deployer-git –save</p>
-<p>3、</p>
-<p>{ [Error:Cannot find module’./build/Release/DTraceProviderBindings’]code:’MODULE_NOT_FOUND’}{ [Error:Cannot find module’./build/default/DTraceProviderBindings’]code:’MODULE_NOT_FOUND’}{ [Error:Cannot find module’./build/Debug/DTraceProviderBindings’]code:’MODULE_NOT_FOUND’}</p>
-<p>解决方法：</p>
-<p>npminstall hexo –no-optional</p>
-<p>4、npm install卡住不动</p>
-<p>使用cnpm加速npm(原文地址：<a href="https://cnodejs.org/topic/5338c5db7cbade005b023c98" target="_blank" rel="external">https://cnodejs.org/topic/5338c5db7cbade005b023c98</a>)</p>
-<p>npm–registry=<a href="https://registry.npm.taobao.org" target="_blank" rel="external">https://registry.npm.taobao.org</a> install koa</p>
-
+<p>开篇记录一下搭建的过程希望能帮助到浏览到这里的朋友<br>
+          
       
     </div>
     
@@ -840,6 +746,10 @@
         <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/nodejs/">nodejs</a></li></ul>
     </div>
 
+      
+        <p class="article-more-link">
+          <a href="/2016/11/16/nodejs-into/#more">阅读全文 >></a>
+        </p>
       
       <div class="clearfix"></div>
     </div>
