@@ -4,8 +4,22 @@
   
     
     <entry>
+      <title><![CDATA[nodejs的Linux环境搭建]]></title>
+      <url>http://wolfgs.com/2016/11/23/nodejs-win/</url>
+      <content type="html"><![CDATA[<p>nodejs的Linux环境搭建一般需要下面几样：</p>
+<h5 id="VirtualBox"><a href="#VirtualBox" class="headerlink" title="VirtualBox"></a>VirtualBox</h5><p>1.<a href="https://www.virtualbox.org/wiki/Downloads" target="_blank" rel="external">下载链接</a></p>
+<p><img src="http://upload-images.jianshu.io/upload_images/1131609-7751c73bfd69bf8e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="01.png"><br><a id="more"></a></p>
+<h5 id="虚拟机CentOS安装"><a href="#虚拟机CentOS安装" class="headerlink" title="虚拟机CentOS安装"></a>虚拟机CentOS安装</h5><p>CentOS的安装包选下面其中一个下载就行了。<br>CentOS中文.<a href="http://www.centoscn.com/CentosSoft/iso/2016/0601/7341.html" target="_blank" rel="external">下载链接</a><br><img src="http://upload-images.jianshu.io/upload_images/1131609-903b4b1cdbcdbbf2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Paste_Image.png"></p>
+<p>CentOS官网.<a href="https://www.centos.org/download/" target="_blank" rel="external">下载链接</a><br><img src="http://upload-images.jianshu.io/upload_images/1131609-d4a12cf0b6cb02c1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Paste_Image.png"></p>
+<h5 id="xShell与xFtp"><a href="#xShell与xFtp" class="headerlink" title="xShell与xFtp"></a>xShell与xFtp</h5><p>xShell.<a href="http://www.netsarang.com/xshell_download.html" target="_blank" rel="external">下载链接</a><br><img src="http://upload-images.jianshu.io/upload_images/1131609-d5ca6b6a8d238f89.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Paste_Image.png"></p>
+<p>xFtp.<a href="http://www.netsarang.com/products/xfp_overview.html" target="_blank" rel="external">下载链接</a><br><img src="http://upload-images.jianshu.io/upload_images/1131609-0f4945b9482d7679.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Paste_Image.png"></p>
+<p>–两者下载都要填一下name,email资料（随便填就行了）；<br><img src="http://upload-images.jianshu.io/upload_images/1131609-9a90216ec8710af7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Paste_Image.png"></p>
+<h5 id="Node-js"><a href="#Node-js" class="headerlink" title="Node.js"></a>Node.js</h5><h5 id="MongoDB"><a href="#MongoDB" class="headerlink" title="MongoDB"></a>MongoDB</h5><h5 id="Redis"><a href="#Redis" class="headerlink" title="Redis"></a>Redis</h5><h5 id="Sublime-Text"><a href="#Sublime-Text" class="headerlink" title="Sublime Text"></a>Sublime Text</h5><h5 id="WebStorm"><a href="#WebStorm" class="headerlink" title="WebStorm"></a>WebStorm</h5>]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[Node服务器端开发第一天]]></title>
-      <url>http://wolfgs.com/2016/11/21/node-1-day/</url>
+      <url>http://wolfgs.com/2016/11/22/node-1-day/</url>
       <content type="html"><![CDATA[<h1 id="Node服务器端开发第一天"><a href="#Node服务器端开发第一天" class="headerlink" title="Node服务器端开发第一天"></a>Node服务器端开发第一天</h1><blockquote>
 <p>Node简介及配置、快速上手、核心特点、模块化<br><img src="http://upload-images.jianshu.io/upload_images/2353966-cb17eb530c7999fc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="1212.png"><br><a id="more"></a></p>
 <h2 id="Node简介"><a href="#Node简介" class="headerlink" title="Node简介"></a>Node简介</h2></blockquote>
@@ -182,58 +196,8 @@
     </entry>
     
     <entry>
-      <title><![CDATA[我出上联，你答下联]]></title>
-      <url>http://wolfgs.com/2016/11/21/shang/</url>
-      <content type="html"><![CDATA[<p>熊猫宝贝<br>今天下班回到家，男票问了我一个很难很难的问题，我百思不得其解，所以来这里求助聪明的你们啦！这是个关于对联的问题。</p>
-<p>上联：熊猫的胸毛是熊毛</p>
-<p>下联是什么呢？</p>
-<p>小伙伴们，我在评论区等你们哦<br>熊猫宝贝</p>
-]]></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[html]]></title>
-      <url>http://wolfgs.com/2016/11/21/html/</url>
-      <content type="html"></content>
-    </entry>
-    
-    <entry>
       <title><![CDATA[hexo常用命令笔记]]></title>
-      <url>http://wolfgs.com/2016/11/21/hexo%20changyong/</url>
-      <content type="html"><![CDATA[<p>hexo<br>npm install hexo -g #安装<br>npm update hexo -g #升级<br>hexo init #初始化<br><a id="more"></a><br>简写<br>hexo n “我的博客” == hexo new “我的博客” #新建文章<br>hexo p == hexo publish<br>hexo g == hexo generate#生成<br>hexo s == hexo server #启动服务预览<br>hexo d == hexo deploy#部署</p>
-<p>服务器<br>hexo server #Hexo 会监视文件变动并自动更新，您无须重启服务器。<br>hexo server -s #静态模式<br>hexo server -p 5000 #更改端口<br>hexo server -i 192.168.1.1 #自定义 IP</p>
-<p>hexo clean #清除缓存 网页正常情况下可以忽略此条命令<br>hexo g #生成静态网页<br>hexo d #开始部署</p>
-<p>监视文件变动<br>hexo generate #使用 Hexo 生成静态文件快速而且简单<br>hexo generate –watch #监视文件变动</p>
-<p>完成后部署<br>两个命令的作用是相同的<br>hexo generate –deploy<br>hexo deploy –generate<br>hexo deploy -g<br>hexo server -g</p>
-<p>草稿<br>hexo publish [layout] &lt; title &gt;</p>
-<p>模版<br>hexo new “postName” #新建文章<br>hexo new page “pageName” #新建页面<br>hexo generate #生成静态页面至public目录<br>hexo server #开启预览访问端口（默认端口4000，’ctrl + c’关闭server）<br>hexo deploy #将.deploy目录部署到GitHub</p>
-<p>hexo new [layout] &lt; title &gt;<br>hexo new photo “My Gallery”<br>hexo new “Hello World” –lang tw</p>
-<p>变量  描述<br>layout  布局<br>title   标题<br>date    文件建立日期<br>title: 使用Hexo搭建个人博客<br>layout: post<br>date: 2014-03-03 19:07:43<br>comments: true<br>categories: Blog<br>tags: [Hexo]<br>keywords: Hexo, Blog<br>description: 生命在于折腾，又把博客折腾到Hexo了。给Hexo点赞。<br>模版（Scaffold）<br>hexo new photo “My Gallery”</p>
-<p>变量  描述<br>layout  布局<br>title   标题<br>date    文件建立日期<br>设置文章摘要<br>以上是文章摘要 &lt;! – more – &gt; 以下是余下全文<br>写作<br>hexo new page &lt; title&gt;<br>hexo new post &lt; title&gt;</p>
-<p>变量  描述<br>:title  标题<br>:year   建立的年份（4 位数）<br>:month  建立的月份（2 位数）<br>:i_month    建立的月份（去掉开头的零）<br>:day    建立的日期（2 位数）<br>:i_day  建立的日期（去掉开头的零）<br>推送到服务器上<br>hexo n #写文章<br>hexo g #生成<br>hexo d #部署 #可与hexo g合并为 hexo d -g</p>
-]]></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[hexo常用命令笔记]]></title>
-      <url>http://wolfgs.com/2016/11/21/hexo%20node/</url>
-      <content type="html"><![CDATA[<p>hexo<br>npm install hexo -g #安装<br>npm update hexo -g #升级<br>hexo init #初始化<br><a id="more"></a><br>简写<br>hexo n “我的博客” == hexo new “我的博客” #新建文章<br>hexo p == hexo publish<br>hexo g == hexo generate#生成<br>hexo s == hexo server #启动服务预览<br>hexo d == hexo deploy#部署</p>
-<p>服务器<br>hexo server #Hexo 会监视文件变动并自动更新，您无须重启服务器。<br>hexo server -s #静态模式<br>hexo server -p 5000 #更改端口<br>hexo server -i 192.168.1.1 #自定义 IP</p>
-<p>hexo clean #清除缓存 网页正常情况下可以忽略此条命令<br>hexo g #生成静态网页<br>hexo d #开始部署</p>
-<p>监视文件变动<br>hexo generate #使用 Hexo 生成静态文件快速而且简单<br>hexo generate –watch #监视文件变动</p>
-<p>完成后部署<br>两个命令的作用是相同的<br>hexo generate –deploy<br>hexo deploy –generate<br>hexo deploy -g<br>hexo server -g</p>
-<p>草稿<br>hexo publish [layout] &lt; title &gt;</p>
-<p>模版<br>hexo new “postName” #新建文章<br>hexo new page “pageName” #新建页面<br>hexo generate #生成静态页面至public目录<br>hexo server #开启预览访问端口（默认端口4000，’ctrl + c’关闭server）<br>hexo deploy #将.deploy目录部署到GitHub</p>
-<p>hexo new [layout] &lt; title &gt;<br>hexo new photo “My Gallery”<br>hexo new “Hello World” –lang tw</p>
-<p>变量  描述<br>layout  布局<br>title   标题<br>date    文件建立日期<br>title: 使用Hexo搭建个人博客<br>layout: post<br>date: 2014-03-03 19:07:43<br>comments: true<br>categories: Blog<br>tags: [Hexo]<br>keywords: Hexo, Blog<br>description: 生命在于折腾，又把博客折腾到Hexo了。给Hexo点赞。<br>模版（Scaffold）<br>hexo new photo “My Gallery”</p>
-<p>变量  描述<br>layout  布局<br>title   标题<br>date    文件建立日期<br>设置文章摘要<br>以上是文章摘要 &lt;! – more – &gt; 以下是余下全文<br>写作<br>hexo new page &lt; title&gt;<br>hexo new post &lt; title&gt;</p>
-<p>变量  描述<br>:title  标题<br>:year   建立的年份（4 位数）<br>:month  建立的月份（2 位数）<br>:i_month    建立的月份（去掉开头的零）<br>:day    建立的日期（2 位数）<br>:i_day  建立的日期（去掉开头的零）<br>推送到服务器上<br>hexo n #写文章<br>hexo g #生成<br>hexo d #部署 #可与hexo g合并为 hexo d -g</p>
-]]></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[hexo常用命令笔记]]></title>
-      <url>http://wolfgs.com/2016/11/21/hexo??????/</url>
+      <url>http://wolfgs.com/2016/11/22/hexo%20node/</url>
       <content type="html"><![CDATA[<p>hexo<br>npm install hexo -g #安装<br>npm update hexo -g #升级<br>hexo init #初始化<br><a id="more"></a><br>简写<br>hexo n “我的博客” == hexo new “我的博客” #新建文章<br>hexo p == hexo publish<br>hexo g == hexo generate#生成<br>hexo s == hexo server #启动服务预览<br>hexo d == hexo deploy#部署</p>
 <p>服务器<br>hexo server #Hexo 会监视文件变动并自动更新，您无须重启服务器。<br>hexo server -s #静态模式<br>hexo server -p 5000 #更改端口<br>hexo server -i 192.168.1.1 #自定义 IP</p>
 <p>hexo clean #清除缓存 网页正常情况下可以忽略此条命令<br>hexo g #生成静态网页<br>hexo d #开始部署</p>
@@ -250,7 +214,7 @@
     
     <entry>
       <title><![CDATA[Hello World]]></title>
-      <url>http://wolfgs.com/2016/11/21/hello-world/</url>
+      <url>http://wolfgs.com/2016/11/22/hello-world/</url>
       <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.<br><a id="more"></a></p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
@@ -265,7 +229,7 @@
     
     <entry>
       <title><![CDATA[nodejs 进阶]]></title>
-      <url>http://wolfgs.com/2016/11/16/nodejs-into/</url>
+      <url>http://wolfgs.com/2016/11/17/nodejs-into/</url>
       <content type="html"><![CDATA[<p>hexo–搭建</p>
 <p>前言<br>Hexo是一个很好的博客，个人觉得他的界面干净利落，阅读体验也是很好。初次接触Hexo是在朋友的介绍下才知道的，hexo是需要手动搭建（觉得B格很高），在朋友的帮助下也终于是完成了。</p>
 <p>开篇记录一下搭建的过程希望能帮助到浏览到这里的朋友<br><a id="more"></a><br>我的系统为OS X，windows也可以参考。</p>
