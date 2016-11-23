@@ -3,18 +3,18 @@
 <head>
   <meta charset="utf-8">
   
-  <title>html | wolfgs Blog</title>
+  <title>hexo常用命令笔记 | wolfgs Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="wolfgs Blog a simle Blog">
+  <meta name="description" content="hexonpm install hexo -g #安装npm update hexo -g #升级hexo init #初始化">
 <meta property="og:type" content="article">
-<meta property="og:title" content="html">
-<meta property="og:url" content="http://yoursite.com/2016/11/21/html/index.html">
+<meta property="og:title" content="hexo常用命令笔记">
+<meta property="og:url" content="http://yoursite.com/2016/11/21/hexo node/index.html">
 <meta property="og:site_name" content="wolfgs Blog">
-<meta property="og:description" content="wolfgs Blog a simle Blog">
-<meta property="og:updated_time" content="2016-11-21T07:47:23.000Z">
+<meta property="og:description" content="hexonpm install hexo -g #安装npm update hexo -g #升级hexo init #初始化">
+<meta property="og:updated_time" content="2016-11-21T06:58:41.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="html">
-<meta name="twitter:description" content="wolfgs Blog a simle Blog">
+<meta name="twitter:title" content="hexo常用命令笔记">
+<meta name="twitter:description" content="hexonpm install hexo -g #安装npm update hexo -g #升级hexo init #初始化">
   
     <link rel="alternative" href="/atom.xml" title="wolfgs Blog" type="application/atom+xml">
   
@@ -200,11 +200,11 @@
         </header>                
     </div>
 </nav>
-      <div class="body-wrap"><article id="post-html" class="article article-type-post" itemscope itemprop="blogPost">
+      <div class="body-wrap"><article id="post-hexo node" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
-      <a href="/2016/11/21/html/" class="article-date">
-      <time datetime="2016-11-21T20:47:23.000Z" itemprop="datePublished">2016-11-21</time>
+      <a href="/2016/11/21/hexo node/" class="article-date">
+      <time datetime="2016-11-21T19:24:29.000Z" itemprop="datePublished">2016-11-21</time>
 </a>
     </div>
   
@@ -217,7 +217,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      html
+      hexo常用命令笔记
     </h1>
   
 
@@ -227,6 +227,10 @@
         
 
         
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo/">hexo</a></li></ul>
+    </div>
+
         <div class="clearfix"></div>
       </div>
       
@@ -234,7 +238,18 @@
     <div class="article-entry" itemprop="articleBody">
       
           
-        
+        <p>hexo<br>npm install hexo -g #安装<br>npm update hexo -g #升级<br>hexo init #初始化<br><a id="more"></a><br>简写<br>hexo n “我的博客” == hexo new “我的博客” #新建文章<br>hexo p == hexo publish<br>hexo g == hexo generate#生成<br>hexo s == hexo server #启动服务预览<br>hexo d == hexo deploy#部署</p>
+<p>服务器<br>hexo server #Hexo 会监视文件变动并自动更新，您无须重启服务器。<br>hexo server -s #静态模式<br>hexo server -p 5000 #更改端口<br>hexo server -i 192.168.1.1 #自定义 IP</p>
+<p>hexo clean #清除缓存 网页正常情况下可以忽略此条命令<br>hexo g #生成静态网页<br>hexo d #开始部署</p>
+<p>监视文件变动<br>hexo generate #使用 Hexo 生成静态文件快速而且简单<br>hexo generate –watch #监视文件变动</p>
+<p>完成后部署<br>两个命令的作用是相同的<br>hexo generate –deploy<br>hexo deploy –generate<br>hexo deploy -g<br>hexo server -g</p>
+<p>草稿<br>hexo publish [layout] &lt; title &gt;</p>
+<p>模版<br>hexo new “postName” #新建文章<br>hexo new page “pageName” #新建页面<br>hexo generate #生成静态页面至public目录<br>hexo server #开启预览访问端口（默认端口4000，’ctrl + c’关闭server）<br>hexo deploy #将.deploy目录部署到GitHub</p>
+<p>hexo new [layout] &lt; title &gt;<br>hexo new photo “My Gallery”<br>hexo new “Hello World” –lang tw</p>
+<p>变量  描述<br>layout  布局<br>title   标题<br>date    文件建立日期<br>title: 使用Hexo搭建个人博客<br>layout: post<br>date: 2014-03-03 19:07:43<br>comments: true<br>categories: Blog<br>tags: [Hexo]<br>keywords: Hexo, Blog<br>description: 生命在于折腾，又把博客折腾到Hexo了。给Hexo点赞。<br>模版（Scaffold）<br>hexo new photo “My Gallery”</p>
+<p>变量  描述<br>layout  布局<br>title   标题<br>date    文件建立日期<br>设置文章摘要<br>以上是文章摘要 &lt;! – more – &gt; 以下是余下全文<br>写作<br>hexo new page &lt; title&gt;<br>hexo new post &lt; title&gt;</p>
+<p>变量  描述<br>:title  标题<br>:year   建立的年份（4 位数）<br>:month  建立的月份（2 位数）<br>:i_month    建立的月份（去掉开头的零）<br>:day    建立的日期（2 位数）<br>:i_day  建立的日期（去掉开头的零）<br>推送到服务器上<br>hexo n #写文章<br>hexo g #生成<br>hexo d #部署 #可与hexo g合并为 hexo d -g</p>
+
       
     </div>
     
@@ -242,13 +257,13 @@
   
     
     <div class="copyright">
-        <p><span>本文标题:</span><a href="/2016/11/21/html/">html</a></p>
+        <p><span>本文标题:</span><a href="/2016/11/21/hexo node/">hexo常用命令笔记</a></p>
         <p><span>文章作者:</span><a href="/" title="访问 lgs 的个人博客">lgs</a></p>
-        <p><span>发布时间:</span>2016年11月21日 - 15时47分</p>
-        <p><span>最后更新:</span>2016年11月21日 - 02时47分</p>
+        <p><span>发布时间:</span>2016年11月21日 - 14时24分</p>
+        <p><span>最后更新:</span>2016年11月21日 - 01时58分</p>
         <p>
-            <span>原始链接:</span><a class="post-url" href="/2016/11/21/html/" title="html">http://yoursite.com/2016/11/21/html/</a>
-            <span class="copy-path" data-clipboard-text="原文: http://yoursite.com/2016/11/21/html/　　作者: lgs" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
+            <span>原始链接:</span><a class="post-url" href="/2016/11/21/hexo node/" title="hexo常用命令笔记">http://yoursite.com/2016/11/21/hexo node/</a>
+            <span class="copy-path" data-clipboard-text="原文: http://yoursite.com/2016/11/21/hexo node/　　作者: lgs" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
             <script src="/js/clipboard.min.js"></script>
             <script> var clipboard = new Clipboard('.copy-path'); </script>
         </p>
@@ -261,17 +276,17 @@
 
 <nav id="article-nav">
   
-    <a href="/2016/11/21/shang/" id="article-nav-newer" class="article-nav-link-wrap">
+    <a href="/2016/11/21/hexo changyong/" id="article-nav-newer" class="article-nav-link-wrap">
       <strong class="article-nav-caption"><</strong>
       <div class="article-nav-title">
         
-          我出上联，你答下联
+          hexo常用命令笔记
         
       </div>
     </a>
   
   
-    <a href="/2016/11/21/hexo changyong/" id="article-nav-older" class="article-nav-link-wrap">
+    <a href="/2016/11/21/hexo??????/" id="article-nav-older" class="article-nav-link-wrap">
       <div class="article-nav-title">hexo常用命令笔记</div>
       <strong class="article-nav-caption">></strong>
     </a>
@@ -331,7 +346,7 @@
     
       <div class="duoshuo" id="comments">
     <!-- 多说评论框 start -->
-    <div class="ds-thread" data-thread-key="2016/11/21/html/" data-title="html" data-url="http://yoursite.com/2016/11/21/html/"></div>
+    <div class="ds-thread" data-thread-key="2016/11/21/hexo node/" data-title="hexo常用命令笔记" data-url="http://yoursite.com/2016/11/21/hexo node/"></div>
     <!-- 多说评论框 end -->
     <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
     <script type="text/javascript">
@@ -354,13 +369,13 @@
 
     <div class="scroll" id="post-nav-button">
         
-            <a href="/2016/11/21/shang/" title="上一篇: 我出上联，你答下联">
+            <a href="/2016/11/21/hexo changyong/" title="上一篇: hexo常用命令笔记">
                 <i class="fa fa-angle-left"></i>
             </a>
         
         <a title="文章列表"><i class="fa fa-bars"></i><i class="fa fa-times"></i></a>
         
-            <a href="/2016/11/21/hexo changyong/" title="下一篇: hexo常用命令笔记">
+            <a href="/2016/11/21/hexo??????/" title="下一篇: hexo常用命令笔记">
                 <i class="fa fa-angle-right"></i>
             </a>
         
