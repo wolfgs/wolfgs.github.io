@@ -1,12 +1,7 @@
-<!--Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
-<title>My Profile a Personal Portfolio category Flat bootstrap Responsive  Website Template :: w3layouts</title>
+<title>wolfgs 首页</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <meta name="keywords" content="My Profile Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
@@ -38,15 +33,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="index.html">My Profile</a>
+              <a class="navbar-brand" href="index.html">我的 W 站</a>
             </div>
             <div id="navbar" class="navbar-collapse collapse navbar-right">
               <ul class="nav navbar-nav link-effect">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-				<li><a href="#gallery">Gallery</a></li>
-				<li><a href="#contact">Contact</a></li>
+                <li class="active"><a href="#">首页</a></li>
+                <li><a href="#about">关于</a></li>
+                <li><a href="#portfolio">博客</a></li>
+				<li><a href="#gallery">相册</a></li>
+				<li><a href="#contact">联系我</a></li>
               </ul>
             </div>
           </div>
@@ -59,7 +54,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<ul class="rslides" id="slider">
 		<li>
 			<div class="banner-info">
-				<h3>Its My Life</h3>
+				<h3>我的生活</h3>
 				<span class="line1"></span>
 				<p>Lorem Ipsum is dummy text.</p>
 				<span class="line2"></span>
@@ -320,68 +315,58 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<script src="js/bootstrap.min.js"></script>
 	<!-- js files for banner slider -->
 	<script src="js/responsiveslides.min.js"></script>
-	  <script>
-    $(window).load(function() {
+	  <script>$(window).load(function() {
 
-     // Slideshow for banner
-      $("#slider").responsiveSlides({
-        maxwidth: 1920,
-        speed: 1000
-      });
+	// Slideshow for banner
+	$("#slider").responsiveSlides({
+		maxwidth: 1920,
+		speed: 1000
+	});
 
-
-    });
-  </script>
+});</script>
 	<!-- /js files for banner slider -->
 	<!-- js files for portfolio -->
 		<script src="js/classie.js"></script>
 		<script src="js/helper.js"></script>
 		<script src="js/grid3d.js"></script>
-		<script>
-			new grid3D( document.getElementById( 'grid3d' ) );
-		</script>
+		<script>new grid3D(document.getElementById('grid3d'));</script>
 	<!-- /js files for portfolio -->
 	<!-- js files for gallery -->
 <script type="text/javascript" src="js/cobox.js"></script>
 	<!-- /js files for gallery -->	
 	<!-- js for smooth scrolling -->
 	
-		<script>
-$(document).ready(function(){
-  // Add smooth scrolling to all links in navbar + footer link
-  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+		<script>$(document).ready(function() {
+	// Add smooth scrolling to all links in navbar + footer link
+	$(".navbar a, footer a[href='#myPage']").on('click', function(event) {
 
-  // Store hash
-  var hash = this.hash;
+		// Store hash
+		var hash = this.hash;
 
-  // Using jQuery's animate() method to add smooth page scroll
-  // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
-  $('html, body').animate({
-    scrollTop: $(hash).offset().top
-  }, 900, function(){
+		// Using jQuery's animate() method to add smooth page scroll
+		// The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+		$('html, body').animate({
+			scrollTop: $(hash).offset().top
+		}, 900, function() {
 
-    // Add hash (#) to URL when done scrolling (default click behavior)
-    window.location.hash = hash;
-    });
-  });
-})
-
-</script>
+			// Add hash (#) to URL when done scrolling (default click behavior)
+			window.location.hash = hash;
+		});
+	});
+})</script>
 	<!-- /js for smooth scrolling -->
 	<!-- js for sliding -->
 	
-	<script>
-	$(window).scroll(function() {
-  $(".slideanim").each(function(){
-    var pos = $(this).offset().top;
+	<script>$(window).scroll(function() {
+	$(".slideanim").each(function() {
+		var pos = $(this).offset().top;
 
-    var winTop = $(window).scrollTop();
-    if (pos < winTop + 600) {
-      $(this).addClass("slide");
-    }
-  });
-});
-</script>
+		var winTop = $(window).scrollTop();
+		if (pos < winTop + 600) {
+			$(this).addClass("slide");
+		}
+	});
+});</script>
 	<!-- /js for sliding -->
 	<!-- /js files -->
 	
